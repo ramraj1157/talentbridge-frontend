@@ -1,0 +1,61 @@
+  /* Header Navigation */
+  .dashboard-nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #2d3e50;
+    padding: 4px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 10%;
+  }
+  
+  .dashboard-nav button {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    font-size: 0.8rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: white;
+    padding: 6px 2px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin: 0% 1%;
+}
+
+.dashboard-nav button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.dashboard-nav .active {
+    background-color: #1abc9c; 
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+  
+  .profile-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    font-size: 0.9rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.profile-photo-header {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: -10%;
+    padding: 0%;
+    margin-right: 3%;
+}
+.default-profile-icon-header {
+  font-size: 30px;
+  color: white;
+}

@@ -1,0 +1,237 @@
+/* 🔹 General Container */
+.connect-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  min-height: 95vh;
+}
+
+/* 🔹 Swipe Card Layout */
+.swipe-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: #ffffff;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 1300px;
+  padding: 5px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  position: relative;
+  transition: transform 0.3s ease;
+  margin-top: 5px;
+  margin-bottom: -15%;
+}
+
+/* 🔹 Left Column (Profile & Professional Details & Education) */
+.left-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 25px;
+  border-right: 2px solid #ddd;
+}
+
+/* Profile Image */
+.profile-photo-connect {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #007bff;
+  margin-bottom: 10px;
+  margin-top: -5%;
+}
+
+/* Default Profile Icon */
+.default-profile-icon-connect {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #ddd;
+  color: #555;
+  font-size: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -5%;
+}
+
+/* Basic Info */
+.basic-info h3 {
+  color: #2d3e50;
+  font-size: 22px;
+  margin: 2px 0;
+}
+
+.basic-info .location {
+  font-style: italic;
+  color: #777;
+  font-size: 14px;
+}
+
+.bio-connect {
+  margin-top: 2px;
+  color: #555;
+  font-style: italic;
+  font-size: 14px;
+}
+
+/* Social Media Links */
+.social-links-connect {
+  display: flex;
+  gap: 12px;
+  margin: 10px 0;
+}
+
+.social-links a {
+  color: #007bff;
+  font-size: 20px;
+  transition: transform 0.2s ease;
+}
+
+.social-links a:hover {
+  color: #0056b3;
+  transform: scale(1.2);
+}
+
+/* 🔹 Right Column (Work Experience & Additional Info) */
+.right-column {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 25px;
+}
+
+/* Section Styling */
+.section {
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.section h4 {
+  color: #2d3e50;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.section p {
+  color: #555;
+  font-size: 14px;
+  margin: 4px 2px;
+  line-height: 1.5;
+}
+
+.section ul {
+  padding-left: 20px;
+  list-style-type: disc;
+  color: #444;
+}
+
+/* Work Experience */
+.work-experience-item {
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border-left: 4px solid #007bff;
+}
+
+.work-experience-item p {
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+}
+
+.work-experience-item ul {
+  margin-top: 5px;
+  font-size: 13px;
+  color: #666;
+}
+
+.swipe-buttons-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 5px 0;
+  margin-top: 0px;
+  border-top: 1px solid #ddd;
+}
+
+.swipe-btn-connect {
+  width: 200px;
+  background-color: #007bff;
+  color: white;
+  padding: 3px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin: 0 20px;
+
+}
+
+.swipe-btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.swipe-left {
+  background-color: #e74c3c;
+}
+
+.swipe-left:hover {
+  background-color: #c0392b;
+}
+
+.swipe-right {
+  background-color: #2ecc71;
+}
+
+.swipe-right:hover {
+  background-color: #27ae60;
+}
+
+.swipe-hint {
+  display: block;
+  text-align: center;
+  margin-top: -5px;
+  font-size: 14px;
+  color: #555;
+  font-style: italic;
+}
+
+
+/* 🔹 Messages */
+.info-message {
+  background-color: #e0f7fa;
+  color: #00796b;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.error-message {
+  background-color: #ffebee;
+  color: #c62828;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+
+
