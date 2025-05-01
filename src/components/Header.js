@@ -46,7 +46,7 @@ const Header = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-sm px-4 py-2">
       <div className="container-fluid">
         {/* Brand */}
-        <span className="navbar-brand fw-bold text-primary fs-4">TalentBridge</span>
+        <span className="navbar-brand fw-bold text-primary fs-4">TalentHire</span>
 
         {/* Toggler */}
         <button
