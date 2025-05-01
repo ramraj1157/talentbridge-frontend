@@ -4,7 +4,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 const Footer = () => {
   return (
     <footer className="bg-light text-center text-muted py-4 border-top">
-      <span className="fw-bold fs-4 text-primary">Talent Bridge</span>
+      <span className="fw-bold fs-4 text-primary">Talent Hire</span>
       {/* Inspirational Quote */}
       <p className="mb-2 fst-italic">
         "Bridging talent and opportunity, one step at a time."
