@@ -37,7 +37,7 @@ const Footer = () => {
       </div>
 
       {/* Copyright */}
-      <p className="mb-0">&copy; {new Date().getFullYear()} Talent Bridge</p>
+      <p className="mb-0">&copy; {new Date().getFullYear()} Talent Hire</p>
     </footer>
   );
 };
