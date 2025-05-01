@@ -16,7 +16,7 @@ const Navbar = () => {
             height="40"
             className="me-2"
           />
-          <span className="fw-bold fs-4 text-primary mb-0">Talent Bridge</span>
+          <span className="fw-bold fs-4 text-primary mb-0">Talent Hire</span>
         </Link>
 
         {/* Right: Toggler + Collapse */}
